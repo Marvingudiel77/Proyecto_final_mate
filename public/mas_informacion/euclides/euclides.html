@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="styleeuclides.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>ALGORITMO DE EUCLIDES</h1>
+        <H3>El algoritmo de Euclides es un algoritmo para el cálculo del máximo común
+            divisor desarrollado por el matemático griego Euclides (aprox. 325-265 a.
+            C.).</H3>
+        <img src="/mas_informacion/images/MCD.png">
+        <h3>Para calcular (a : b) podemos suponer a ≥ b sino intercambiamos los roles pues (a : b) = (b : a)</h3>
+        <h3>Efectuamos entonces la división entera de a por b obteniendo un primer cociente q1 y un primer resto r1</h3>
+        <img src="/mas_informacion/images/ejemplo1.png">
+        <h3>Si r2 = 0 el algorimo termina. Sino, dividimos a r1 por r2 obteniendo un tercer cociente q3 y un tercer
+            resto r3
+        </h3>
+        <img src="/mas_informacion/images/formula1.png">
+        <h3>Repitiendo (inductivamente) el procedimiento, supongamos que ya calculamos r`. Si r` = 0 el algoritmo
+            termina.
+            Si no dividimos a r`−1 por r`, obteniendo que</h3>
+        <img src="/mas_informacion/images/formula2.png">
+        <h3>Notamos que por construcción la sucesión de restos</h3>
+        <img src="/mas_informacion/images/formula3.png">
+        <h3>es una sucesión de enteros no negativos estrictamente decreciente. Por el principio del mínimo entero, se
+            deduce
+            que esta sucesión no puede continuar indefinidamente. En consecuencia, siempre existe un N ∈ N tal que</h3>
+        <img src="/mas_informacion/images/formula4.png">
+        <h3>es decir que el algoritmo de Euclides siempre termina.</h3>
+        <img src="/mas_informacion/images/formula5.png">
+        <p><strong>Ejemplo</strong>: Calculemos el máximo común divisor entre 32 y 17 por el
+            algoritmo de Euclides:</p>
+        <img src="/mas_informacion/images/mcd2.png">
+        <p>El algoritmo de Euclides termina: El mcd entre 32 y 17 es 1.</p>
+    </div>
+</body>

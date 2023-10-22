@@ -1,0 +1,46 @@
+html {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: yellow;
+}
+
+h3 {
+    text-align: center;
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: white;
+}
+
+img {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+
+h2 {
+    margin-left: 7%;
+    color: yellow
+}
+
+
+ol {
+    margin-left: 8%;
+    color: white
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 20px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

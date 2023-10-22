@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: springgreen;
+    text-align: center;
+    border: 3px solid springgreen;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+section {
+    background-color: black;
+    margin: 30px;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+
+
+}
+
+section:hover {
+    box-shadow: 0.2rem 0.2rem 0.3rem 0.3rem springgreen
+}
+
+h3 {
+    text-align: center;
+    color: purple;
+}
+
+.container {
+    display: flex;
+}
+
+.img_container {
+    padding-left: 225px;
+    margin: 10px;
+
+
+}
+
+.imagen {
+    padding-right: 40px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#articulo2 {
+    color: white;
+}
+
+.contenedor2 {
+    display: flex;
+}
+
+.ajustes {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+h4 {
+    color: springgreen;
+    text-align: center;
+    font-size: larger;
+}
+
+
+footer {
+    background-color: black;
+    padding: 30px;
+    border: 3px solid springgreen;
+    cursor: pointer;
+}
+
+
+h5 {
+    color: springgreen;
+    font-size: larger;
+    text-align: center;
+    margin: 25px;
+
+
+}
+
+.contenedor3 {
+    display: flex;
+}
+
+.info {
+    padding-left: 350px;
+    padding-top: 25px;
+
+
+}
+
+#imagen {
+    border-style: solid;
+    border-width: 7px;
+    border-color: rgba(169, 169, 169, 0.192);
+    border-radius: 500px;
+}
+
+.linea {
+    border-color: springgreen;
+}

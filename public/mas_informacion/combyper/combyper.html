@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: black;
+            padding: 20px;
+            border: 1px solid orangered;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: orangered;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        p {
+            color: #d3d3d3;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: #ff5722;
+            font-weight: bold;
+        }
+
+        .bg-primary {
+            background-color: #007bff;
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .bg-accent {
+            background-color: #ff5722;
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .explanation {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Combinaciones y Permutaciones</h1>
+        <p>
+            Las <span class="highlight">combinaciones</span> y <span class="highlight">permutaciones</span> son
+            conceptos fundamentales en matemáticas y teoría de la probabilidad.
+            En resumen:
+        </p>
+        <p>
+            <span class="bg-primary">Combinaciones:</span> Son agrupaciones de elementos en las que el orden no importa.
+            Por ejemplo, elegir un comité
+            de 3 personas de un grupo de 10.
+        </p>
+        <div class="explanation">
+            <h3>Cómo resolver combinaciones:</h3>
+            <ol>
+                <li>Identifica el número total de elementos disponibles (n).</li>
+                <li>Determina cuántos elementos deseas seleccionar (k).</li>
+                <li>Usa la fórmula de combinaciones: C(n, k) = n! / (k! * (n - k)!), donde "n!" es el factorial de n.
+                </li>
+                <li>Calcula el valor de C(n, k).</li>
+            </ol>
+        </div>
+        <p>
+            <span class="bg-accent">Permutaciones:</span> Son agrupaciones de elementos en las que el orden sí importa.
+            Por ejemplo, la disposición
+            de letras en una palabra o la elección de un presidente, vicepresidente y tesorero en un comité.
+        </p>
+        <div class="explanation">
+            <h3>Cómo resolver permutaciones:</h3>
+            <ol>
+                <li>Identifica el número total de elementos disponibles (n).</li>
+                <li>Determina cuántos elementos deseas seleccionar (k).</li>
+                <li>Usa la fórmula de permutaciones: P(n, k) = n! / (n - k)!, donde "n!" es el factorial de n.</li>
+                <li>Calcula el valor de P(n, k).</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
